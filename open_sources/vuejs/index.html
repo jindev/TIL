@@ -9,6 +9,19 @@
     <div id="app">
       <h1>Hello {{name}}</h1>
     </div>
+    <div id="directiveEx">
+      <h2>
+        <span v-text="name" v-if="ifValue > 5">
+        </span>
+        <span v-else>
+          5보다 작군.
+        </span>
+        <br/>
+        <span v-html="htmlEx" v-show="visible">
+        </span>
+      </h2>
+
+    </div>
     <script src="./node_modules/vue/dist/vue.js"></script>
     <script src="./public/index.js"></script>
   </body>
