@@ -47,10 +47,9 @@ print sess.run(hypothesisWithPH, feed_dict={X: 2.5})
 # https://www.tensorflow.org/versions/r0.10/api_docs/python/constant_op/random_tensors#random_uniform
 # https://www.tensorflow.org/api_docs/python/train/optimizers#GradientDescentOptimizer
 # https://www.tensorflow.org/api_docs/python/math_ops/reduction#reduce_mean
-
-#https://www.tensorflow.org/api_docs/python/train/optimizers#Optimizer.minimize
+# https://www.tensorflow.org/api_docs/python/train/optimizers#Optimizer.minimize
 
 #경사하강법 알고리즘 (이해 안됨 ㅠ )
-#https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%82%AC_%ED%95%98%EA%B0%95%EB%B2%95
-#http://darkpgmr.tistory.com/133
-#http://nobilitycat.tistory.com/entry/Gradient-Descent
+# https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%82%AC_%ED%95%98%EA%B0%95%EB%B2%95
+# http://darkpgmr.tistory.com/133
+# http://nobilitycat.tistory.com/entry/Gradient-Descent
