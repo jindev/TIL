@@ -30,6 +30,13 @@
       <h2>현재 값: {{ifValue}}</h2>
 
     </div>
+    <div id="bindEx" v-cloak>
+      <h3>Hi {{name}}</h>
+      <p>{{ Date() }}</p>  
+      <img v-bind:src="feelsGood"/>
+      <img :src="feelsGood"/>
+      <img :src="smile? feelsGood : feelsBad"/>
+    </div>
     <script src="./node_modules/vue/dist/vue.js"></script>
     <script src="./public/index.js"></script>
   </body>
