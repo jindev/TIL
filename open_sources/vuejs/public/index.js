@@ -52,3 +52,18 @@ var modelEx = new Vue({
     },
   }
 });
+
+var onEx = new Vue({
+  el: '#onEx',
+  data: {
+    num: 0
+  },
+  methods: {
+    inc: function() {
+      this.num++;
+    },
+    dec: function() {
+      this.num--;
+    }
+  }
+});

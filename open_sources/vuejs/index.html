@@ -50,6 +50,15 @@
       <img :src="smile ? feelsGood.src : feelsBad.src" />
     </div>
 
+
+    <div id="onEx">
+      <h2>카운터 {{ num }}</h2>
+      <button @:click="inc">증가</button>
+      <button @:click="dec">감소</button>
+      <!-- 같은 코드 -->
+      <!-- <button v-on:click="inc">증가</button>
+      <button v-on:click="dec">감소</button> -->
+    </div>
     <script src="./node_modules/vue/dist/vue.js"></script>
     <script src="./public/index.js"></script>
   </body>
