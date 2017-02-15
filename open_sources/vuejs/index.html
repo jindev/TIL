@@ -43,6 +43,13 @@
       </ul>
     </div>
 
+    <div id="modelEx">
+      <h3>HI! {{ name || '' }}</h3>
+      <input type="text" v-model="name">
+      <h3><input type="checkbox"  v-model="smile" />{{ smile? feelsBad.text : feelsGood.text}}</h3>
+      <img :src="smile ? feelsGood.src : feelsBad.src" />
+    </div>
+
     <script src="./node_modules/vue/dist/vue.js"></script>
     <script src="./public/index.js"></script>
   </body>

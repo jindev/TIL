@@ -36,3 +36,19 @@ var forEx = new Vue({
     ]
   }
 });
+
+var modelEx = new Vue({
+  el: '#modelEx',
+  data: {
+    name: '',
+    smile: false,
+    feelsGood: {
+      src: 'https://imgh.us/feelsgood_1.jpg',
+      text: '웃자'
+    },
+    feelsBad: {
+      src: 'http://imgh.us/feelsbad.jpg',
+      text: '울자'
+    },
+  }
+});
