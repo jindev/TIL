@@ -24,4 +24,15 @@ var bindEx = new Vue({
     feelsGood: 'https://imgh.us/feelsgood_1.jpg',
     feelsBad: 'http://imgh.us/feelsbad.jpg'
   }
-})
+});
+
+var forEx = new Vue({
+  el: '#forEx',
+  data: {
+    todos: [
+      {text: '튜토리얼'},
+      {text: '실전'},
+      {text: '마무리'},
+    ]
+  }
+});
